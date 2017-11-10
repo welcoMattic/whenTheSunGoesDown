@@ -25,6 +25,6 @@ Write this line
 
 ## License
 
-whenTheSunGoesDown is licensed under the WTFPL License
+whenTheSunGoesDown is licensed under the [WTFPL License](http://www.wtfpl.net/about)
 
 ![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/freedom.jpeg)

@@ -1,5 +1,10 @@
 # When The Sun Goes Down
 
+## Requirements
+
+* [solunar](https://github.com/kevinboone/solunar_cmdline)
+* [whereami](https://github.com/slozo/WhereAmI) ⚠️  Manual installation (xcode needed)
+
 ## Installation
 
 Clone the repo

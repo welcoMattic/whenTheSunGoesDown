@@ -21,6 +21,10 @@ Write this line
 /15 * * * * /path/to/whenTheSunGoesDown.py
 ```
 
+Change the paths to day/night wallpapers in Python script
+
+Enjoy ☀️  🌙
+
 ## Credits
 
 * [Carlos Evo](https://github.com/CarlosEvo) for the [initial idea](https://www.reddit.com/r/unixporn/comments/76a1xr/macos_auto_darkmode_with_control_plane/) posted on Reddit

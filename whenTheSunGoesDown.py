@@ -18,8 +18,10 @@ sunset = datetime.strptime(sunset, '%H:%M').time()
 present = datetime.now().time()
 
 set_wallpaper_script = """/usr/bin/osascript<<END
-tell application "Finder"
-set desktop picture to POSIX file "%s"
+tell application "System Events"
+    tell every desktop
+        set picture to "%s"
+    end tell
 end tell
 END"""
 

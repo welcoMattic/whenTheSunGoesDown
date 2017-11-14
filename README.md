@@ -29,7 +29,7 @@ Enjoy ☀️  🌙
 
 * [Carlos Evo](https://github.com/CarlosEvo) for the [initial idea](https://www.reddit.com/r/unixporn/comments/76a1xr/macos_auto_darkmode_with_control_plane/) posted on Reddit
 * [Mathieu Santostefano](https://github.com/welcomattic/) for this full python adaptation
-* [All contributors](https://github.com/jolicode/deploylib/graphs/contributors)
+* [All contributors](https://github.com/welcomattic/whenTheSunGoesDown/graphs/contributors)
 
 
 ## License

@@ -6,11 +6,12 @@ from datetime import datetime
 
 # Determine city
 location_raw = os.popen('/usr/local/bin/whereami').read()
-location_line = location_raw.splitlines()[4]
-city = ''.join([i for i in location_line.split(',')[1] if not i.isdigit()]).strip()
+long_line = location_raw.splitlines()[0]
+lat_line = location_raw.splitlines()[1]
+longlat = long_line.split(':')[1].strip() + ',' + lat_line.split(':')[1].strip()
 
 # Determine sunrise/sunset
-sun_raw = os.popen('/usr/local/bin/solunar -c %s' % city).read()
+sun_raw = os.popen('/usr/local/bin/solunar -l %s' % longlat).read()
 sunrise = re.search('Sunrise: (\d*:\d*)', sun_raw).group(1)
 sunset = re.search('Sunset: (\d*:\d*)', sun_raw).group(1)
 sunrise = datetime.strptime(sunrise, '%H:%M').time()
